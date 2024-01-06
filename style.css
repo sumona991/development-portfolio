@@ -1,0 +1,217 @@
+ /* ## Nav Related Styles : */
+
+nav{
+    display:flex;
+    /* naver jinis gulo 2 pashe deyar jonno */
+    justify-content: space-between; 
+    /* naver jinis gulo sojashuji deyar jonno */
+    align-items: center;
+    margin: 0 200px;
+}
+body{
+     font-family: 'Lato', sans-serif;
+ font-family: 'Open sans', sans-serif; 
+}
+.text-orange{
+    color: #FD6E0A;
+}
+.btn-orange{
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 15px 35px;
+}
+
+.nav-title{ 
+    color: black;
+/* font-family: Open Sans; */
+font-size: 45px;
+/* font-style: normal; */
+font-weight: 800;
+/* line-height: normal; */
+}
+nav > ul{
+    display: flex;
+    /* naver jinis gulo shojashuji deyar jonno */
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right:51px ;
+}
+nav a {
+    text-decoration: none;
+    color: #474747;
+   
+}
+
+/* ## Header Related Styles :  */
+.header{
+
+    background-color: #FFF8F3;
+    background-image: url(header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.banner{
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner .profile-picture{
+    width: 500px;
+    height: 500px;
+    position: bottom right;
+    
+   
+}
+p{
+    font-family: none;
+}
+
+.banner-content{
+    max-width: 500px;
+}
+.banner-greeting{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+    
+
+}
+.banner-title{
+    font-size:75px;
+
+font-weight: 700;
+margin-top: 5px;
+margin-bottom: 20px;
+margin-top: 5px ;
+}
+
+/* main section styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 130px;
+}
+/* about saction styles */
+
+.about{
+    padding:209px 157px 221px 156px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 100px;
+}
+.section-title{
+    color: #181818;
+text-align: center;
+font-size: 35px;
+font-weight: 700;
+
+}
+.section-description{
+    color:#757575;
+text-align: center;
+font-size: 18px;
+
+
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+#what-i-do-description{
+    padding:30px 150px;
+}
+
+/* what i do type styles */
+.skill-container{
+    display: flex;
+    gap:24px;
+}
+.skill{
+    padding:30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    
+}
+.skill-description{
+    color: #757575;
+}
+
+/* Resume section  */
+
+.resume-column-title{
+    color: #474747;
+    
+    font-size: 30px;
+    font-weight: 700;
+    
+
+}
+.resume-container{
+    display: flex;
+    gap: 50px;
+}
+.resume-item-description, .resume-item-institute{
+    color:  #757575;
+}
+.resume-item-title{
+    color: #474747;
+font-size: 25px;
+font-weight: 700;
+margin-bottom: 10px;
+
+}
+
+.resume-container hr{
+    margin: 30px;
+}
+.resume-item-institute{
+    margin-bottom:20px ;
+    margin-top:0px ;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Footer Styles */
+footer{
+    display: flex;
+    background: #FFF8F3;
+    padding:130px 200px;
+    margin-top: 100px ;
+    gap: 100px;
+}
+
+.footer-column{
+    width: 50%;
+}
+
+.social-links a{
+    margin-right: 25px;
+}
+
+.contact input[type="text"], .contact input[type="email"] , textarea {
+display: block;
+margin-bottom: 25px;
+padding: 18px 35px;
+color: #757575;
+border-radius: 5px;
+background:  #FFF;
+border: 0px;
+width: 100%;
+}
